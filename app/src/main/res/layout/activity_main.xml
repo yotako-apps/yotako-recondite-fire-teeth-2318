@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+        <com.yotako.customView.YotakoConstraintLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+            <android.support.constraint.Guideline
+android:id="@+id/iphone_6_7_8_1_text_0_guidelines_topc4de6caf_7422_4e14_9075_9a725ce34cc0"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+app:layout_constraintGuide_percent="0.2518" />
+            <android.support.constraint.Guideline
+android:id="@+id/iphone_6_7_8_1_text_0_guidelines_startc4de6caf_7422_4e14_9075_9a725ce34cc0"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintGuide_percent="0.384" />
+            <android.support.constraint.Guideline
+android:id="@+id/iphone_6_7_8_1_text_0_guidelines_bottomc4de6caf_7422_4e14_9075_9a725ce34cc0"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+app:layout_constraintGuide_percent="0.27129000000000003" />
+            <android.support.constraint.Guideline
+android:id="@+id/iphone_6_7_8_1_text_0_guidelines_endc4de6caf_7422_4e14_9075_9a725ce34cc0"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintGuide_percent="0.61066" />
+            <com.yotako.customView.YotakoTextView
+android:id="@+id/iphone_6_7_8_1_text_0"
+android:fontFamily="lato"
+
+android:text="CONFIRMATION" 
+android:textColor="#ffffff"
+android:textSize="10sp"
+app:autoSizeTextType="none"
+android:textStyle="bold"
+app:originalWidth="85"
+app:originalHeight="13"
+android:gravity="left"
+android:layout_width="0dp"
+android:layout_height="18.72dp"
+android:layout_weight="1"
+app:layout_constraintStart_toStartOf="@+id/iphone_6_7_8_1_text_0_guidelines_startc4de6caf_7422_4e14_9075_9a725ce34cc0"
+app:layout_constraintTop_toTopOf="@+id/iphone_6_7_8_1_text_0_guidelines_topc4de6caf_7422_4e14_9075_9a725ce34cc0"
+app:layout_constraintEnd_toEndOf="@+id/iphone_6_7_8_1_text_0_guidelines_endc4de6caf_7422_4e14_9075_9a725ce34cc0"
+app:layout_constraintBottom_toBottomOf="@+id/iphone_6_7_8_1_text_0_guidelines_bottomc4de6caf_7422_4e14_9075_9a725ce34cc0" />
+        </com.yotako.customView.YotakoConstraintLayout>
+    </LinearLayout>
